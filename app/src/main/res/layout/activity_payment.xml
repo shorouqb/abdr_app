@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vip.abdr_app.payment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="Card Type :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:textSize="18dp"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:entries="@array/card_type"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+            android:padding="2dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:ems="10"
+            android:id="@+id/ct"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border"/>
+    <TextView
+        android:text="Card Number :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:id="@+id/textView10"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/cn"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:text="Ex date:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView11"
+        android:textSize="18dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="MM/YY"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ex"
+            android:background="@drawable/border"/>
+
+        <TextView
+            android:text="CCV :"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/ccv"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView13"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:id="@+id/name"
+        android:gravity="center"
+        android:background="@drawable/border"/>
+</LinearLayout>
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:id="@+id/don"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        app:srcCompat="@drawable/don" />
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@null"
+        android:id="@+id/can"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+      android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/c" />
+</RelativeLayout>

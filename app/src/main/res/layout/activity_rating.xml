@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_rating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vip.abdr_app.rating">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ref" />
+    <TextView
+        android:text="Rate the service /5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/ref"
+        android:id="@+id/rate" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ratingBar"
+        android:layout_below="@+id/rate"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/review"
+        android:singleLine="false"
+        android:hint="Review"
+        tools:textAlignment="center"
+        android:background="@drawable/border"
+        android:layout_below="@+id/ratingBar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/submit"
+        app:srcCompat="@drawable/don"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/review"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

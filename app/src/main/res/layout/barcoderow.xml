@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:layout_weight="0.03">
+
+        <ImageView
+
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/bar"
+            android:id="@+id/bar"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:text="Number:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="30dp"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/num"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="13sp"/>
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/v"
+            android:id="@+id/show"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="95dp"/>
+    </FrameLayout>
+
+
+</LinearLayout>

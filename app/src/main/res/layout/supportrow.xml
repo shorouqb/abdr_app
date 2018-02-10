@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="120dp"
+        android:layout_height="137dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border" >
+
+        <TextView
+            android:text="Status:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="75dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stat"
+            android:layout_marginTop="77dp"
+            android:layout_marginLeft="57dp"
+            android:textSize="10sp"/>
+
+
+        <TextView
+            android:text="Title:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginTop="95dp"
+            android:layout_marginLeft="45dp"
+            android:textSize="13sp"/>
+
+
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/v"
+            android:layout_marginTop="114dp"
+            android:layout_marginLeft="100dp"
+            app:srcCompat="@drawable/v" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/idimg"
+            app:srcCompat="@drawable/s" />
+    </FrameLayout>
+
+</LinearLayout>

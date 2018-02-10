@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_addfamily"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vip.abdr_app.addfamily">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/name"
+        android:hint="Full name"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Spinner
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:id="@+id/rel"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:entries="@array/list"
+        android:gravity="center"
+        tools:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/idno"
+        android:hint="National id number(1111111111)"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/rel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"/>
+
+
+    <ImageView android:id="@+id/button1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/imid"
+        android:layout_below="@+id/idno"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:text="Capture\nId Photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+    <ImageView android:id="@+id/imageview1"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/idno"
+      />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/btnadd"
+        app:srcCompat="@drawable/don"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="11dp" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/cans"
+        app:srcCompat="@drawable/c"
+        android:layout_marginStart="60dp"
+        android:layout_alignBaseline="@+id/btnadd"
+        android:layout_alignBottom="@+id/btnadd"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="60dp" />
+</RelativeLayout>

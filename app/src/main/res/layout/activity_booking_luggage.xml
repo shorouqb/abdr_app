@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_booking_luggage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vip.abdr_app.booking_luggage">
+
+
+            <TextView
+                android:text="Bag description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewdes"
+                android:textSize="15dp"
+
+                android:layout_centerHorizontal="true"/>
+
+            <EditText
+                android:text=""
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/editTextdis"
+                android:background="@drawable/border"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/textViewdes"
+                />
+
+            <TextView
+                android:text="Wight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewbrand"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editTextdis"/>
+            <Spinner
+                android:id="@+id/wight"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:entries="@array/wight_array"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/editTextdis"
+                android:background="@drawable/border"
+                android:layout_centerHorizontal="true"
+                />
+
+            <TextView
+                android:text="Brand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewwight"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/wight"
+                android:textSize="15dp"/>
+    <Spinner
+        android:id="@+id/brand"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:entries="@array/brand_array"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/wight"
+        android:background="@drawable/border"
+        android:layout_centerHorizontal="true"
+        />
+
+
+            <TextView
+                android:text="Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewcolor"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/brand" />
+            <Spinner
+                android:id="@+id/color"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:entries="@array/color_array"
+                android:background="@drawable/border"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/brand"
+                android:layout_centerHorizontal="true"
+                />
+
+            <CheckBox
+                android:text="fragile"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBoxfragile"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/color"
+                android:background="@drawable/border"/>
+
+            <CheckBox
+                android:text="wrap"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBoxwrap"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/color"
+                android:layout_toRightOf="@+id/checkBoxfragile"
+                android:background="@drawable/border"
+                android:layout_marginLeft="10dp"/>
+
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/add_btn"
+        app:srcCompat="@drawable/ab"
+        android:layout_below="@+id/color"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/luggages_list"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/add_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </ListView>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/next_btn"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ar"
+        android:layout_below="@+id/luggages_list"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

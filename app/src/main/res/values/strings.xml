@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">ABDR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="about">
+        <![CDATA[
+ABDR\n\n
+Is an application; that will enable you to be\n\n
+released from all the troubles of check-in process\n\n
+at the airport, by providing a trusted driver to do\n\n
+that for you, while you track his full path to the \n\n
+airport,and you receive luggage barcodes while\n\n
+you are home,and when you are ready you head \n\n
+to the boarding gate directly.
+  ]]>
+    </string>
+    <string-array name="list">
+        <item>Relationship:</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Wife</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Maid</item>
+    </string-array>
+    <string-array name="list1">
+        <item>City:</item>
+        <item>Jeddah</item>
+    </string-array>
+    <string-array name="brand_array">
+        <item>Select Brand</item>
+        <item>U.S.POLO</item>
+        <item>Clavin Klein</item>
+        <item>The Bridge</item>
+        <item>United color of benetton</item>
+        <item>Samaonite</item>
+        <item>Victoria</item>
+        <item>Delsey</item>
+        <item>Gucci</item>
+        <item>Chanel</item>
+        <item>Louis Vuitton</item>
+        <item>other</item>
+    </string-array>
+
+    <string-array name="card_type">
+        <item>SELECT</item>
+        <item>VISA</item>
+        <item>MASTER CARD</item>
+        <item>AMERICAN EXPRESS</item>
+    </string-array>
+
+    <string-array name="color_array">
+        <item>Select Color</item>
+        <item>black</item>
+        <item>white</item>
+        <item>gray</item>
+        <item>blue</item>
+        <item>light blue</item>
+        <item>green</item>
+        <item>light green</item>
+        <item>red</item>
+        <item>yallow</item>
+        <item>orangr</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="wight_array">
+        <item>Select Wight</item>
+        <item>LESS</item>
+        <item>5K</item>
+        <item>10K</item>
+        <item>15K</item>
+        <item>20K</item>
+        <item>25K</item>
+        <item>MORE</item>
+    </string-array>
+    <string-array name="city_array">
+        <item>Choose the city</item>
+        <item>Abha</item>
+        <item>Al-Baha</item>
+        <item>Alahsa</item>
+        <item>Arar</item>
+        <item>Bisha</item>
+        <item>Dammam</item>
+        <item>Dawadmi</item>
+        <item>Dhahran</item>
+        <item>Gassim</item>
+        <item>Gurayat</item>
+        <item>Hafr Albatin</item>
+        <item>Hail</item>
+        <item>Jazan</item>
+        <item>Jeddah</item>
+        <item>Jouf</item>
+        <item>Khamis Mushait</item>
+        <item>Madinah</item>
+        <item>Majma</item>
+        <item>Nejran</item>
+        <item>Qaisumah</item>
+        <item>Rafha</item>
+        <item>Riyadh</item>
+        <item>Sharurah</item>
+        <item>Sulayel</item>
+        <item>Tabuk</item>
+        <item>Taif</item>
+        <item>Turaif</item>
+        <item>Unayzah</item>
+        <item>Wadi Ad Dawasir</item>
+        <item>Wedjh</item>
+        <item>Yanbu</item>
+        <item>Zilfi</item>
+
+    </string-array>
+
+    <string-array name="from_city_array">
+        <item>Choose the city</item>
+        <item>Jeddah</item>
+    </string-array>
+
+    <string name="instrauctions">"-Luggage must be within the specified weight range.\n\n"
+        "-If luggage exceeds the allowed weight range, extra fees will be collected from the passenger bank account.\n\n"
+        "-Any dangerous luggage shouldn't be carried on a flight.\n\n"
+        "-Cancellation is available 24 hours before booking time. \n\n"
+        "-Passenger must commit with the appointment date and time."</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="Rules">
+    "1.	Luggage must be within the specified weight range by the airline.\n\n"
+    "2.	If luggage exceeds the allowed weight range, extra fees will be collected from the passenger bank account.\n\n"
+    "3.	Any dangerous luggage shouldn't be carried on a flight.\n\n"
+    "4.	Be sure you reserve the appropriate car for your luggage.\n\n"
+    "5.	Passenger has to be serious and must commit with the appointment date and time.\n\n"
+    "6.	Your bank account must be valid.\n\n"
+    "7.	Fees will be withdrawn from your bank account right after your luggage has been checked in.\n\n"
+    "8.	Feel free to contact us through our Complaints page if you have any problem.\n\n"
+    "9.	In case of driver delay (15 minutes after you appointment), you'll have 10% discount.\n\n"
+    "10.Maximum driver waiting time is 20-30 minutes.\n\n"
+    "11.Cancellation one day prior your appointment is preferred.\n\n"</string>
+
+
+</resources>

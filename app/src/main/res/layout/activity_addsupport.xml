@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_addsupport"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vip.abdr_app.addsupport">
+
+    <TextView
+        android:text="Contact Us At: abdr_app@hotmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/submit"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/don"
+        android:layout_below="@+id/scrollView3"
+        android:layout_marginLeft="200dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/cans"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/c"
+        android:layout_below="@+id/scrollView3"
+        android:layout_marginLeft="100dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/scrollView3"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="230dp"
+                android:layout_height="30dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/bookref"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:hint="Booking refrence"
+                tools:textAlignment="center"
+                android:background="@drawable/border"
+                android:gravity="center"
+                />
+
+
+            <EditText
+                android:layout_width="280dp"
+                android:layout_height="30dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_marginTop="30dp"
+                android:id="@+id/title"
+                android:hint="Title"
+                tools:textAlignment="center"
+                android:background="@drawable/border"
+                android:layout_below="@+id/bookref"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/com"
+        android:singleLine="false"
+        android:hint="Complaint"
+        tools:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

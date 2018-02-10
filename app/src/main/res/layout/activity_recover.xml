@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_recover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="30dp"
+    android:layout_marginTop="10dp"
+    tools:context=".recover">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/cancel"
+        app:srcCompat="@drawable/c"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/send"
+        app:srcCompat="@drawable/don"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="200dp"/>
+
+
+    <EditText
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="email"
+        android:background="@drawable/border"
+        android:layout_centerVertical="true"
+        android:id="@+id/email"
+        android:layout_centerHorizontal="true"
+        tools:textAlignment="center" />
+</RelativeLayout>
